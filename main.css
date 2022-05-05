@@ -1,4 +1,4 @@
-html,body {margin-left:3%;margin-right:auto;margin-top:3%;background-color:#e0e0e0;}
+html,body {margin-left:auto;margin-right:auto;margin-top:3%;background-color:#e0e0e0;}
 a {color:#bb0000;text-decoration:none;border-bottom:1px solid;}
 pre,code,kbd,samp,tt,.email {font-family:'Source Code Pro',monospace;}
 html,body,p,dl,dt,dd,li,ul,.highlight {font-family:'Open Sans','Helvetica','Roboto',sans-serif;}
@@ -13,13 +13,12 @@ pre,code,kbd,samp,tt {font-size:13pt;line-height:1.1em;}
 .addendum {font-size:10pt;}
 dt {color:#444444;font-size:10pt;}
 #introcontent { width:55%;z-index:5; }
-#content { width:90%;z-index:5; }
+#content { width:60%;z-index:5;margin:auto;margin-top:6%; }
 #rightcol { width:40%;overflow:visible;position:absolute;right:1%;z-index:1; }
 #rightimg { max-width:100%;height:auto;float:right;margin-right:0px;border-radius:15px; }
 #footer { bottom:5%;font-size:12pt;z-index:2; }
 .ccimg { overflow:visible;max-width:100%;height:auto;border-radius:15px; }
 .cchuge {
-    margin-left: -3%;
     font-family:'Open Sans','Helvetica','Roboto',sans-serif;font-size:96pt;line-height:1.1em;font-weight:700;
     display: flex;
     justify-content: center;
